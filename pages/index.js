@@ -1,8 +1,9 @@
+import Home from "./home";
 
 export default function Index() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Home />
     </div>
   )
 }
