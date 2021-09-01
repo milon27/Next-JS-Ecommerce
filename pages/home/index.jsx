@@ -1,23 +1,15 @@
 import React from 'react'
-import Body from '../../components/Body';
-import Header from '../../components/Header'
-import Footer from './../../components/Footer';
+import Body from '../../components/body/Body';
 
 export default function Home() {
     return (
-        <>
-
-            <Header />
-
-            <Body>
-                <div className="container">
-                    <div className="row">
-                        <div className="col">one</div>
-                        <div className="col">two</div>
-                    </div>
+        <Body>
+            <div className="container">
+                <div className="row">
+                    <div className="col">one</div>
+                    <div className="col">two</div>
                 </div>
-            </Body>
-            <Footer />
-        </>
+            </div>
+        </Body>
     )
 }
