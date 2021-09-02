@@ -1,5 +1,8 @@
 import React from 'react'
 import Body from '../../components/body/Body'
+import HomeContent from '../../components/pages/home/content/HomeContent'
+import HomeOffer from '../../components/pages/home/HomeOffer'
+import HomeSidebar from '../../components/pages/home/HomeSidebar'
 
 //localhost:3000/home
 
@@ -7,14 +10,12 @@ export default function Home() {
     return (
         <>
             <Body>
-                <div className="container">
+                <div className="container mb-2">
+                    {/* offer component */}
+                    <HomeOffer />
                     <div className="row">
-                        <h1>This is our home...</h1>
-                    </div>
-                </div>
-                <div className="container">
-                    <div className="row">
-                        <h1>This is our home...</h1>
+                        <HomeContent />
+                        <HomeSidebar />
                     </div>
                 </div>
             </Body>

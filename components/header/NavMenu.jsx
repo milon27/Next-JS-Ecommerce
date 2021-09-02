@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function NavMenu() {
     return (
@@ -57,9 +58,13 @@ export default function NavMenu() {
                             <button className="mobile-menu-toggler mr-2" type="button">
                                 <i className="icon-menu" />
                             </button>
-                            <a href="index.html" className="logo">
-                                <img src="assets/images/logo.png" alt="Porto Logo" />
-                            </a>
+                            <Link href="/home">
+                                <a className="logo">
+                                    <img src="assets/images/logo.png" alt="Porto Logo" />
+                                </a>
+                            </Link>
+
+
                         </div>{/* End .header-left */}
                         <div className="header-right w-lg-max pl-2">
                             <div className="header-search header-icon header-search-inline header-search-category w-lg-max mr-lg-4">
