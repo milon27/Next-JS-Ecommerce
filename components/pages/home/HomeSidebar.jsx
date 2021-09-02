@@ -19,6 +19,7 @@ export default function HomeSidebar() {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <a href="#" className="btn btn-dark btn-md font1">View Sale</a>
                         </div>{/* End .banner */}
+
                         <div className="banner d-flex flex-column align-items-center">
                             <h3 className="badge-sale bg-primary d-flex flex-column align-items-center justify-content-center text-uppercase">
                                 <em className="pt-3 ls-0">Sale</em>Many Item</h3>
@@ -26,6 +27,7 @@ export default function HomeSidebar() {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <a href="#" className="btn btn-dark btn-md font1">View Sale</a>
                         </div>{/* End .banner */}
+
                         <div className="banner d-flex flex-column align-items-center">
                             <h3 className="badge-sale bg-primary d-flex flex-column align-items-center justify-content-center text-uppercase">
                                 <em className="pt-3 ls-0">Sale</em>Many Item</h3>
@@ -33,6 +35,7 @@ export default function HomeSidebar() {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <a href="#" className="btn btn-dark btn-md font1">View Sale</a>
                         </div>{/* End .banner */}
+
                     </div>{/* End .banner-slider */}
                 </div>{/* End .widget */}
                 <div className="widget widget-newsletters bg-gray text-center">
