@@ -1,15 +1,25 @@
 import React from 'react'
-import Body from '../../components/body/Body';
 
 export default function Home() {
     return (
-        <Body>
-            <div className="container">
-                <div className="row">
-                    <div className="col">one</div>
-                    <div className="col">two</div>
-                </div>
+
+        <div className="container">
+            <div className="row">
+                <div className="col">one</div>
+                <div className="col">two</div>
             </div>
-        </Body>
+
+
+            {/* <!-- Plugins JS File --> */}
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/bootstrap.bundle.min.js"></script>
+            <script src="assets/js/plugins.min.js"></script>
+
+            {/* <!-- Main JS File --> */}
+            <script src="assets/js/main.min.js"></script>
+        </div>
+
+
+
     )
 }
