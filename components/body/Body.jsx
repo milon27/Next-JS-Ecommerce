@@ -8,10 +8,10 @@ import useScript from './../hooks/useScript';
 
 export default function Body({ children }) {
 
-    useScript("./assets/js/jquery.min.js")
-    useScript("./assets/js/bootstrap.bundle.min.js")
-    useScript("./assets/js/plugins.min.js")
-    useScript("./assets/js/main.js")
+    // useScript("./assets/js/jquery.min.js")
+    // useScript("./assets/js/bootstrap.bundle.min.js")
+    // useScript("./assets/js/plugins.min.js")
+    // useScript("./assets/js/main.js")
 
     return (
         <>

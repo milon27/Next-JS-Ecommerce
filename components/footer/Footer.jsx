@@ -12,9 +12,9 @@ export default function Footer() {
 
             {/* thiss will  */}
             <script type="text/javascript" src="assets/js/jquery.min.js" ></script>
-            <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" ></script>
+            {/* <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" ></script>
             <script type="text/javascript" src="assets/js/plugins.min.js" ></script>
-            <script type="text/javascript" src="assets/js/main.min.js" ></script>
+            <script type="text/javascript" src="assets/js/main.min.js" ></script> */}
 
         </>
     )

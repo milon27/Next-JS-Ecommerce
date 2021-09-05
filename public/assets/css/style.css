@@ -4434,7 +4434,8 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden; }
   body:not(.loaded) > *:not(.loading-overlay) {
-    visibility: hidden; }
+    visibility: visible; 
+  }
 
 ::-moz-selection {
   background-color: #08c;
@@ -4910,7 +4911,9 @@ a:focus {
     border-radius: 50%;
     border-top-color: #08c;
     border-image: none;
-    content: ''; }
+    content: '';
+    display: none;
+  }
   .home-slide:before,
   .category-slide:before {
     -webkit-animation: spin 1s infinite ease;
