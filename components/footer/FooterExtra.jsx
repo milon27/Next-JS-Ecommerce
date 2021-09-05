@@ -107,7 +107,9 @@ export default function FooterExtra() {
                     </div>{/* End .social-icons */}
                 </div>{/* End .mobile-menu-wrapper */}
             </div>{/* End .mobile-menu-container */}
-            <div className="newsletter-popup mfp-hide" id="newsletter-popup-form" style={{ background: '#f1f1f1 no-repeat center/cover url(assets/images/newsletter_popup_bg.jpg)' }}>
+
+
+            {/* <div className="newsletter-popup mfp-hide" id="newsletter-popup-form" style={{ background: '#f1f1f1 no-repeat center/cover url(assets/images/newsletter_popup_bg.jpg)' }}>
                 <div className="newsletter-popup-content">
                     <img src="assets/images/logo-black.png" alt="Logo" className="logo-newsletter" />
                     <h2>BE THE FIRST TO KNOW</h2>
@@ -116,7 +118,7 @@ export default function FooterExtra() {
                         <div className="input-group">
                             <input type="email" className="form-control" id="newsletter-email" name="newsletter-email" placeholder="Email address" required />
                             <input type="submit" className="btn" defaultValue="Go!" />
-                        </div>{/* End .from-group */}
+                        </div>
                     </form>
                     <div className="newsletter-subscribe">
                         <div className="checkbox">
@@ -126,8 +128,12 @@ export default function FooterExtra() {
                             </label>
                         </div>
                     </div>
-                </div>{/* End .newsletter-popup-content */}
-            </div>{/* End .newsletter-popup */}
+                </div>
+            </div> */}
+            {/* End .newsletter-popup */}
+
+
+
             {/* Add Cart Modal */}
             <div className="modal fade" id="addCartModal" tabIndex={-1} role="dialog" aria-labelledby="addCartModal" aria-hidden="true">
                 <div className="modal-dialog" role="document">

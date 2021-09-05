@@ -11,6 +11,13 @@ export default function HomeSidebar() {
                 <HomeCategory />
 
                 <div className="widget widget-banners px-5 pb-3 text-center">
+                    {/* start */}
+
+                    {/* //.owlCarousel(); */}
+
+                    {/* end  */}
+
+
                     <div className="owl-carousel owl-theme">
                         <div className="banner d-flex flex-column align-items-center">
                             <h3 className="badge-sale bg-primary d-flex flex-column align-items-center justify-content-center text-uppercase">

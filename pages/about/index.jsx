@@ -5,6 +5,7 @@ import AboutSection from '../../components/pages/about/AboutSection';
 import Body from './../../components/body/Body';
 import AboutWhyChose from './../../components/pages/about/AboutWhyChose';
 
+
 export default function About() {
     return (
         <Body>

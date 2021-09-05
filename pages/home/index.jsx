@@ -4,6 +4,7 @@ import HomeContent from '../../components/pages/home/content/HomeContent'
 import HomeOffer from '../../components/pages/home/HomeOffer'
 import HomeSidebar from '../../components/pages/home/HomeSidebar'
 
+
 //localhost:3000/home
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
                         <HomeSidebar />
                     </div>
                 </div>
+
             </Body>
 
         </>

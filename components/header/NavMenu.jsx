@@ -35,7 +35,12 @@ export default function NavMenu() {
                                 <div className="header-menu">
                                     <ul>
                                         <li><a href="my-account.html">Track Order </a></li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li>
+                                            <Link href="/about">
+                                                <a >About</a>
+                                            </Link>
+
+                                        </li>
                                         <li><a href="category.html">Our Stores</a></li>
                                         <li><a href="blog.html">Blog</a></li>
                                         <li><a href="contact.html">Contact</a></li>
@@ -58,12 +63,12 @@ export default function NavMenu() {
                             <button className="mobile-menu-toggler mr-2" type="button">
                                 <i className="icon-menu" />
                             </button>
+
                             <Link href="/home">
                                 <a className="logo">
                                     <img src="assets/images/logo.png" alt="Porto Logo" />
                                 </a>
                             </Link>
-
 
                         </div>{/* End .header-left */}
                         <div className="header-right w-lg-max pl-2">
